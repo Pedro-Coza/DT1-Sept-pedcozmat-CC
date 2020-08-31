@@ -1,0 +1,27 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+enterpreneur.activity.list.h2 = <h2>Lista de actividades del programa de trabajo</h2>
+
+enterpreneur.activity.h2 = <h2>Detalles de la actividad</h2>
+
+enterpreneur.activity.list.label.title = Título
+enterpreneur.activity.list.label.startDate = Fecha de creación
+enterpreneur.activity.list.label.endDate = Fecha de fin
+enterpreneur.activity.list.label.budget = Presupuesto
+
+enterpreneur.activity.form.label.title = Título
+enterpreneur.activity.form.label.startDate = Fecha de creación
+enterpreneur.activity.form.label.endDate = Fecha de fin
+enterpreneur.activity.form.label.budget = Presupuesto
+
+enterpreneur.activity.form.button.create = Crear actividad
+
+enterpreneur.activity.form.button.return = Return

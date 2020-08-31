@@ -1,0 +1,12 @@
+investor.message.list.label.title = Título
+investor.message.list.label.creationMoment = Momento de creación
+investor.message.list.label.tags = Tags
+investor.message.list.label.body = Cuerpo
+
+investor.message.form.label.title = Título
+investor.message.form.label.creationMoment = Momento de creación
+investor.message.form.label.accepted = Acepto publicar este mensaje
+investor.message.form.label.tags = Tags
+investor.message.form.label.body = Cuerpo
+
+investor.message.form.button.return = Volver

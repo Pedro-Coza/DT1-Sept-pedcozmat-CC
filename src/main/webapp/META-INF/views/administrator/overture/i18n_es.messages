@@ -1,0 +1,37 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.overture.list.h2 = <h2>Lista de propuestas</h2>
+
+administrator.overture.h2 = <h2>Detalles de la propuesta</h2>
+
+administrator.overture.list.label.title = Título
+administrator.overture.list.label.creationdate = Fecha de creación
+administrator.overture.list.label.deadline = Fecha de expiración
+administrator.overture.list.label.description = Descripción
+administrator.overture.list.label.mmin = Mínimo presupuesto
+administrator.overture.list.label.mmax = Máximo presupuesto
+administrator.overture.list.label.email = Email
+
+administrator.overture.form.label.title = Título
+administrator.overture.form.label.creationdate = Fecha de creación
+administrator.overture.form.label.deadline = Fecha de expiración
+administrator.overture.form.label.description = Descripción
+administrator.overture.form.label.mmin = Mínimo presupuesto
+administrator.overture.form.label.mmax = Máximo presupuesto
+administrator.overture.form.label.email = Email
+
+administrator.overture.form.button.delete = Borrar
+administrator.overture.form.button.update = Actualizar
+administrator.overture.form.button.create = Crear
+administrator.overture.button.create = Crear Propuesta
+
+administrator.overture.list.button.return = Volver
+administrator.overture.form.button.return = Volver

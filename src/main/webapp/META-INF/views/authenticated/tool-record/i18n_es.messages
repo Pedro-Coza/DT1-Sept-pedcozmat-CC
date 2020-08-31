@@ -1,0 +1,33 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.toolRecord.list.h2 = <h2>Lista de registros de herramientas</h2>
+
+authenticated.toolRecord.h2 = <h2>Detalles del registro de herramientas</h2>
+
+authenticated.toolRecord.list.label.title = Título
+authenticated.toolRecord.list.label.sector = Sector de actividad
+authenticated.toolRecord.list.label.investorName = Nombre del inversor
+authenticated.toolRecord.list.label.description = Descripción
+authenticated.toolRecord.list.label.website = Sitio web
+authenticated.toolRecord.list.label.email = Email
+authenticated.toolRecord.list.label.source = Fuente
+authenticated.toolRecord.list.label.rating = Valoración
+
+authenticated.toolRecord.form.label.title = Título
+authenticated.toolRecord.form.label.sector = Sector de actividad
+authenticated.toolRecord.form.label.investorName = Nombre del inversor
+authenticated.toolRecord.form.label.description = Descripción
+authenticated.toolRecord.form.label.website = Sitio web
+authenticated.toolRecord.form.label.email = Email
+authenticated.toolRecord.form.label.source = Fuente
+authenticated.toolRecord.form.label.rating = Valoración
+
+authenticated.toolRecord.form.button.return = Volver

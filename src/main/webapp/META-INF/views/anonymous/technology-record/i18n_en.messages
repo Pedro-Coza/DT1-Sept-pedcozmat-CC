@@ -1,0 +1,33 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+anonymous.technologyRecord.list.h2 = <h2>Technology Records List</h2>
+
+anonymous.technologyRecord.h2 = <h2>Technology Records details</h2>
+
+anonymous.technologyRecord.list.label.title = Title
+anonymous.technologyRecord.list.label.sector = Activity Sector
+anonymous.technologyRecord.list.label.investorName = Investor Name
+anonymous.technologyRecord.list.label.description = Description
+anonymous.technologyRecord.list.label.website = Website
+anonymous.technologyRecord.list.label.email = Email
+anonymous.technologyRecord.list.label.source = Source
+anonymous.technologyRecord.list.label.rating = Rating
+
+anonymous.technologyRecord.form.label.title = Title
+anonymous.technologyRecord.form.label.sector = Activity Sector
+anonymous.technologyRecord.form.label.investorName = Investor Name
+anonymous.technologyRecord.form.label.description = Description
+anonymous.technologyRecord.form.label.website = Website
+anonymous.technologyRecord.form.label.email = Email
+anonymous.technologyRecord.form.label.source = Source
+anonymous.technologyRecord.form.label.rating = Rating
+
+anonymous.technologyRecord.form.button.return = Return

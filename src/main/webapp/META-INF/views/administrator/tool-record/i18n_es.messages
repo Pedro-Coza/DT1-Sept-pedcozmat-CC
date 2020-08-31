@@ -1,0 +1,38 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.toolRecord.list.h2 = <h2>Lista de registros de herramientas</h2>
+
+administrator.toolRecord.h2 = <h2>Detalles del registro de herramientas</h2>
+
+administrator.toolRecord.list.label.title = Título
+administrator.toolRecord.list.label.sector = Sector de actividad
+administrator.toolRecord.list.label.investorName = Nombre del inversor
+administrator.toolRecord.list.label.description = Descripción
+administrator.toolRecord.list.label.website = Sitio web
+administrator.toolRecord.list.label.email = Email
+administrator.toolRecord.list.label.source = Fuente
+administrator.toolRecord.list.label.rating = Valoración
+
+administrator.toolRecord.form.label.title = Título
+administrator.toolRecord.form.label.sector = Sector de actividad
+administrator.toolRecord.form.label.investorName = Nombre del inversor
+administrator.toolRecord.form.label.description = Descripción
+administrator.toolRecord.form.label.website = Sitio web
+administrator.toolRecord.form.label.email = Email
+administrator.toolRecord.form.label.source = Fuente
+administrator.toolRecord.form.label.rating = Valoración
+
+administrator.tool-record.form.button.delete = Borrar
+administrator.tool-record.form.button.update = Actualizar
+administrator.tool-record.form.button.create = Crear
+administrator.toolRecord.button.create = Crear Registro de Herramientas
+
+administrator.toolRecord.form.button.return = Volver

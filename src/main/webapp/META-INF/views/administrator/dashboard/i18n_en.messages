@@ -1,0 +1,38 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.title = <h2>DashBoard</h2>
+
+administrator.dashboard.form.totalNotice = Total Notices
+administrator.dashboard.form.totalTechRec = Total Technology Records
+administrator.dashboard.form.totalToolRec = Total Tool Records
+
+administrator.dashboard.form.minInq = Minimum of active Inquiries money interval
+administrator.dashboard.form.maxInq = Maximum of active Inquiries money interval 
+administrator.dashboard.form.avgInq = Average of active Inquiries money interval
+administrator.dashboard.form.stdDevInq = Standard deviation of active Inquiries money interval
+
+administrator.dashboard.form.minOvt = Minimum of active Overtures money interval
+administrator.dashboard.form.maxOvt = Maximum of active Overtures money interval
+administrator.dashboard.form.avgOvt = Average of active Overtures money interval
+administrator.dashboard.form.stdDevOvt = Standard deviation of active Overtures money interval
+
+
+administrator.dashboard.form.charts = <h2>Charts</h2>
+administrator.dashboard.form.title.groupedByAS = Total number of technologies and tools grouped by activity sector
+administrator.dashboard.form.title.techSource = Ratio of open-source vs closed-source technologies
+administrator.dashboard.form.title.toolSource = Ratio of open-source vs closed-source tools
+
+administrator.dashboard.form.avgInvRoundXEnterpreneur = Average Investment Rounds per Enterpreneur
+administrator.dashboard.form.avgAppsXEnterpreneur = Average Applications per Enterpreneur
+administrator.dashboard.form.avgInvRoundXInvestor = Average Applications per Investor
+
+administrator.dashboard.form.title.iRKind = Investment Rounds grouped by Kind of Round
+administrator.dashboard.form.title.appByStatus = Applications grouped by status

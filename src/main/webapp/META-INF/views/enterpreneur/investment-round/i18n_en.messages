@@ -1,0 +1,45 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+enterpreneur.investmentRound.list.h2 = <h2>My Investment Rounds List</h2>
+
+
+enterpreneur.investmentRound.h2 = <h2>Investment Round Details</h2>
+
+enterpreneur.investmentRound.list.label.ticker = Ticker
+enterpreneur.investmentRound.list.label.creationdate = Creation Date
+enterpreneur.investmentRound.list.label.kindRound = Kind of Investment Round
+enterpreneur.investmentRound.list.label.title = Title
+enterpreneur.investmentRound.list.label.money = Investment amount
+enterpreneur.investmentRound.list.label.info = Information
+enterpreneur.investmentRound.list.label.workProg = Working Programme
+enterpreneur.investmentRound.list.label.application = Application
+
+enterpreneur.investmentRound.form.label.ticker = Ticker
+enterpreneur.investmentRound.form.label.creationdate = Creation Date
+enterpreneur.investmentRound.form.label.kindRound = Kind of investment Round
+enterpreneur.investmentRound.form.label.title = Title
+enterpreneur.investmentRound.form.label.money = Investment amount
+enterpreneur.investmentRound.form.label.info = Information
+
+enterpreneur.invRound.form.label.active = Final mode
+enterpreneur.invRound.form.label.true = ACTIVE
+enterpreneur.invRound.form.label.false = INACTIVE
+
+enterpreneur.investmentRound.form.button.workingProg = Working Programme
+enterpreneur.investmentRound.form.button.addActivity = Add activity to WP
+
+enterpreneur.investmentRound.form.button.application = Application
+
+enterpreneur.investmentRound.form.button.create = Create
+enterpreneur.investmentRound.form.button.update = Update
+enterpreneur.investmentRound.form.button.delete = Delete
+
+enterpreneur.investmentRound.form.button.return = Return

@@ -1,0 +1,28 @@
+patron.banner.list.label.picture = Picture
+patron.banner.list.label.slogan = Slogan
+patron.banner.list.label.targetUrl = Target url
+
+patron.banner.form.label.picture = Picture
+patron.banner.form.label.slogan = Slogan
+patron.banner.form.label.targetUrl = Target url
+patron.banner.form.credit-card = <h4>Credit 	Card:</h4>
+patron.banner.form.label.holderName = Holder Name
+patron.banner.form.label.number = Number
+patron.banner.form.label.expirationDate = Expiration Date
+patron.banner.form.label.cvv = CVV
+patron.banner.form.button.card = Credit Card
+
+patron.banner.form.error.number = The number must have 15 digits
+patron.banner.form.error.cvv = The CVV must have 3 digits
+patron.banner.form.error.deadline = The Date must be MM/yyyy
+patron.banner.form.error.month = The month must be between 01 and 12
+patron.banner.form.error.numberInvalid = The number is invalid
+patron.banner.form.error.invalidStart = The credit card must start with 4(Visa), 5(MasterCard), 3(American Express) or 6(Discover)
+
+patron.banner.form.button.update = Update
+patron.banner.form.button.delete = Delete
+patron.banner.form.button.create = Crear
+
+patron.banner.button.create = Create Banner
+
+patron.banner.form.button.return= Return

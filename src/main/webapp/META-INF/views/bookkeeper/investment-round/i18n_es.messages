@@ -1,0 +1,39 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+bookkeeper.investmentRound.list.h2 = <h2>Lista de rondas de inversión</h2>
+
+bookkeeper.investmentRound.h2 = <h2>Detalles de la ronda de inversión</h2>
+
+bookkeeper.investmentRound.list.label.ticker = Código
+bookkeeper.investmentRound.list.label.creationdate = Fecha de creación
+bookkeeper.investmentRound.list.label.kindRound = Tipo de ronda de inversión
+bookkeeper.investmentRound.list.label.title = Título
+bookkeeper.investmentRound.list.label.money = Cantidad
+bookkeeper.investmentRound.list.label.info = Info
+bookkeeper.investmentRound.list.label.workProg = Programa de trabajo
+bookkeeper.investmentRound.list.label.application = Aplicaciones
+
+bookkeeper.investmentRound.form.label.ticker = Código
+bookkeeper.investmentRound.form.label.creationdate = Fecha de creación
+bookkeeper.investmentRound.form.label.kindRound = Tipo de ronda de inversión
+bookkeeper.investmentRound.form.label.title = Título
+bookkeeper.investmentRound.form.label.money = Cantidad
+bookkeeper.investmentRound.form.label.info = Información
+
+bookkeeper.investmentRound.form.button.workingProg = Programa de trabajo
+
+bookkeeper.investmentRound.form.button.application = Aplicaciones
+
+bookkeeper.investmentRound.form.button.forum = Forum
+
+bookkeeper.investmentRound.form.button.acRecord = Registros contables
+
+bookkeeper.investmentRound.form.button.return = Volver

@@ -1,0 +1,23 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.forum.list.h2 = <h2>Forums List</h2>
+
+authenticated.forum.h2 = <h2>Forum Details</h2>
+
+authenticated.forum.list.label.title = Title
+authenticated.forum.list.label.creationDate = Creation Date
+
+authenticated.forum.form.label.title = Title
+authenticated.forum.form.label.creationDate = Creation Date
+
+authenticated.forum.form.button.messages.list = Messages
+
+authenticated.forum.form.button.return = Return

@@ -1,0 +1,38 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.toolRecord.list.h2 = <h2>Tool Records List</h2>
+
+administrator.toolRecord.h2 = <h2>Tool Records details</h2>
+
+administrator.toolRecord.list.label.title = Title
+administrator.toolRecord.list.label.sector = Activity Sector
+administrator.toolRecord.list.label.investorName = Investor Name
+administrator.toolRecord.list.label.description = Description
+administrator.toolRecord.list.label.website = Website
+administrator.toolRecord.list.label.email = Email
+administrator.toolRecord.list.label.source = Source
+administrator.toolRecord.list.label.rating = Rating
+
+administrator.toolRecord.form.label.title = Title
+administrator.toolRecord.form.label.sector = Activity Sector
+administrator.toolRecord.form.label.investorName = Investor Name
+administrator.toolRecord.form.label.description = Description
+administrator.toolRecord.form.label.website = Website
+administrator.toolRecord.form.label.email = Email
+administrator.toolRecord.form.label.source = Source
+administrator.toolRecord.form.label.rating = Rating
+
+administrator.tool-record.form.button.delete = Delete
+administrator.tool-record.form.button.update = Update
+administrator.tool-record.form.button.create = Create
+administrator.toolRecord.button.create = Create Tool Records
+
+administrator.toolRecord.form.button.return = Return

@@ -1,0 +1,39 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.investmentRound.list.h2 = <h2>Lista de rondas de inversión</h2>
+
+authenticated.investmentRound.h2 = <h2>Detalles de la ronda de inversión</h2>
+
+authenticated.investmentRound.list.label.ticker = Código
+authenticated.investmentRound.list.label.creationdate = Fecha de creación
+authenticated.investmentRound.list.label.kindRound = Tipo de ronda de inversión
+authenticated.investmentRound.list.label.title = Título
+authenticated.investmentRound.list.label.money = Cantidad
+authenticated.investmentRound.list.label.info = Info
+authenticated.investmentRound.list.label.workProg = Programa de trabajo
+authenticated.investmentRound.list.label.application = Aplicaciones
+
+authenticated.investmentRound.form.label.ticker = Código
+authenticated.investmentRound.form.label.creationdate = Fecha de creación
+authenticated.investmentRound.form.label.kindRound = Tipo de ronda de inversión
+authenticated.investmentRound.form.label.title = Título
+authenticated.investmentRound.form.label.money = Cantidad
+authenticated.investmentRound.form.label.info = Información
+
+authenticated.investmentRound.form.button.workingProg = Programa de trabajo
+
+authenticated.investmentRound.form.button.application = Aplicaciones
+
+authenticated.investmentRound.form.button.acRecord = Registros contables
+
+authenticated.investmentRound.form.button.forum = Forum
+
+authenticated.investmentRound.form.button.return = Volver

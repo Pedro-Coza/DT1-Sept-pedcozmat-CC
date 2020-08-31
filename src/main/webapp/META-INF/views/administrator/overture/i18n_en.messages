@@ -1,0 +1,36 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.overture.list.h2 = <h2>Overtures List</h2>
+
+administrator.overture.h2 = <h2>Overture Details</h2>
+
+administrator.overture.list.label.title = Title
+administrator.overture.list.label.creationdate = Creation Date
+administrator.overture.list.label.deadline = Deadline
+administrator.overture.list.label.description = Description
+administrator.overture.list.label.mmin = Money Min
+administrator.overture.list.label.mmax = Money Max
+administrator.overture.list.label.email = Email
+
+administrator.overture.form.label.title = Title
+administrator.overture.form.label.creationdate = Creation Date
+administrator.overture.form.label.deadline = Deadline
+administrator.overture.form.label.description = Description
+administrator.overture.form.label.mmin = Money Min
+administrator.overture.form.label.mmax = Money Max
+administrator.overture.form.label.email = Email
+
+administrator.overture.form.button.delete = Delete
+administrator.overture.form.button.update = Update
+administrator.overture.form.button.create = Create
+administrator.overture.button.create = Create Overture
+
+administrator.overture.form.button.return = Return

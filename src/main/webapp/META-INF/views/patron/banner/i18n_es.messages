@@ -1,0 +1,28 @@
+patron.banner.list.label.banner = Pancarta
+patron.banner.list.label.slogan = Slogan
+patron.banner.list.label.url = Url
+
+patron.banner.form.label.picture = Imagen
+patron.banner.form.label.slogan = Slogan
+patron.banner.form.label.targetUrl = Url
+patron.banner.form.credit-card = <h4>Tarjeta de Crédito:</h4>
+patron.banner.form.label.holderName = Nombre del Propietario
+patron.banner.form.label.number = Número
+patron.banner.form.label.expirationDate = Fecha de Vencimiento
+patron.banner.form.label.cvv = CVV
+patron.banner.form.button.card = Tarjeta de Crédito
+
+patron.banner.form.error.number = El número debe tener 15 dígitos
+patron.banner.form.error.cvv = El CVV debe tener 3 dígitos
+patron.banner.form.error.deadline = La fecha debe ser MM/yyyy
+patron.banner.form.error.month = El mes debe estar entre 01 y 12
+patron.banner.form.error.numberInvalid = El número es invalido
+patron.banner.form.error.invalidStart = La tarjeta de crédito debe empezar con 4(Visa), 5(MasterCard), 3(American Express) o 6(Discover)
+
+patron.banner.form.button.update = Actualizar
+patron.banner.form.button.delete = Eliminar
+patron.banner.form.button.create= Crear
+
+patron.banner.button.create = Crear Pancarta
+
+patron.banner.form.button.return= Volver

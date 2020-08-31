@@ -1,0 +1,31 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.inquiry.list.h2 = <h2>Lista de investigaciones</h2>
+
+authenticated.inquiry.h2 = <h2>Detalles de la investigación</h2>
+
+authenticated.inquiry.list.label.title = Título
+authenticated.inquiry.list.label.creationdate = Fecha de creación
+authenticated.inquiry.list.label.deadline = Fecha de expiración
+authenticated.inquiry.list.label.description = Descripción
+authenticated.inquiry.list.label.mmin = Mínimo presupuesto
+authenticated.inquiry.list.label.mmax = Máximo presupuesto
+authenticated.inquiry.list.label.email = Email
+
+authenticated.inquiry.form.label.title = Título
+authenticated.inquiry.form.label.creationdate = Fecha de creación
+authenticated.inquiry.form.label.deadline = Fecha de expiración
+authenticated.inquiry.form.label.description = Descripción
+authenticated.inquiry.form.label.mmin = Mínimo presupuesto
+authenticated.inquiry.form.label.mmax = Máximo presupuesto
+authenticated.inquiry.form.label.email = Email
+
+authenticated.inquiry.form.button.return = Volver

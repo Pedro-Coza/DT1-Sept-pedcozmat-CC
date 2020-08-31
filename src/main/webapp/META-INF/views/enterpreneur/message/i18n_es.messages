@@ -1,0 +1,12 @@
+enterpreneur.message.list.label.title = Título
+enterpreneur.message.list.label.creationMoment = Momento de creación
+enterpreneur.message.list.label.tags = Tags
+enterpreneur.message.list.label.body = Cuerpo
+
+enterpreneur.message.form.label.title = Título
+enterpreneur.message.form.label.creationMoment = Momento de creación
+enterpreneur.message.form.label.accepted = Acepto publicar este mensaje
+enterpreneur.message.form.label.tags = Tags
+enterpreneur.message.form.label.body = Cuerpo
+
+enterpreneur.message.form.button.return = Volver

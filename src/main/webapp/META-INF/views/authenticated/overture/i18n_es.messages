@@ -1,0 +1,32 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.overture.list.h2 = <h2>Lista de propuestas</h2>
+
+authenticated.overture.h2 = <h2>Detalles de la propuesta</h2>
+
+authenticated.overture.list.label.title = Título
+authenticated.overture.list.label.creationdate = Fecha de creación
+authenticated.overture.list.label.deadline = Fecha de expiración
+authenticated.overture.list.label.description = Descripción
+authenticated.overture.list.label.mmin = Mínimo presupuesto
+authenticated.overture.list.label.mmax = Máximo presupuesto
+authenticated.overture.list.label.email = Email
+
+authenticated.overture.form.label.title = Título
+authenticated.overture.form.label.creationdate = Fecha de creación
+authenticated.overture.form.label.deadline = Fecha de expiración
+authenticated.overture.form.label.description = Descripción
+authenticated.overture.form.label.mmin = Mínimo presupuesto
+authenticated.overture.form.label.mmax = Máximo presupuesto
+authenticated.overture.form.label.email = Email
+
+authenticated.overture.list.button.return = Volver
+authenticated.overture.form.button.return = Volver

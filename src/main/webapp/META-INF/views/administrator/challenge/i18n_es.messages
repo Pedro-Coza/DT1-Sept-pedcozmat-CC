@@ -1,0 +1,39 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.challenge.list.h2 = <h2>Lista de retos</h2>
+
+administrator.challenge.h2 = <h2>Detalles del reto</h2>
+
+administrator.challenge.list.label.title = Título
+administrator.challenge.list.label.deadline = Fecha de expiración
+administrator.challenge.list.label.description = Descripción
+administrator.challenge.list.label.expert = Nivel experto
+administrator.challenge.list.label.average = Nivel medio
+administrator.challenge.list.label.rookie = Nivel principante
+administrator.challenge.list.label.expertReward = Recompensa del nivel experto
+administrator.challenge.list.label.averageReward = Recompensa del nivel medio
+administrator.challenge.list.label.rookieReward = Recompensa del nivel principiante
+
+administrator.challenge.form.label.title = Título
+administrator.challenge.form.label.deadline = Fecha de expiración
+administrator.challenge.form.label.description = Descripción
+administrator.challenge.form.label.expert = Nivel experto
+administrator.challenge.form.label.average = Nivel medio
+administrator.challenge.form.label.rookie = Nivel principante
+administrator.challenge.form.label.expertReward = Recompensa del nivel experto
+administrator.challenge.form.label.averageReward = Recompensa del nivel medio
+administrator.challenge.form.label.rookieReward = Recompensa del nivel principiante
+
+administrator.challenge.form.button.delete = Borrar
+administrator.challenge.form.button.create= Crear
+administrator.challenge.button.create = Crear Reto
+administrator.challenge.form.button.update = Actualizar
+administrator.challenge.form.button.return = Volver

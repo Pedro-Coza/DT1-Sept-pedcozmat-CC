@@ -1,0 +1,37 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+enterpreneur.application.list.h2 = <h2>Lista de aplicaciones para esta ronda de inversión</h2>
+
+enterpreneur.investmentRound.listDate.h2 = <h2>Aplicaciones a mis rondas de inversión ordenadas por fecha de creación (descendente)</h2>
+
+enterpreneur.investmentRound.listTicker.h2 = <h2>Aplicaciones a mis rondas de inversión ordenadas por código (ascendente)</h2>
+
+enterpreneur.application.h2 = <h2>Detalles de la aplicación</h2>
+
+enterpreneur.application.list.label.ticker = Código
+enterpreneur.application.list.label.creationDate = Fecha de creación
+enterpreneur.application.list.label.statement = Declaración
+enterpreneur.application.list.label.invOffer = Oferta de inversión
+
+enterpreneur.application.form.label.ticker = Código
+enterpreneur.application.form.label.creationDate = Fecha de creación
+enterpreneur.application.form.label.statement = Declaración
+enterpreneur.application.form.label.invOffer = Oferta de inversión
+
+enterpreneur.application.form.label.status = Estado
+enterpreneur.application.form.label.rejected = RECHAZADO
+enterpreneur.application.form.label.accepted = ACEPTADO
+
+enterpreneur.application.form.label.justification = Justificación
+
+enterpreneur.application.form.button.update = Actualizar
+
+enterpreneur.application.form.button.return = Volver

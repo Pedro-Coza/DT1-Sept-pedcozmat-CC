@@ -1,0 +1,44 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+enterpreneur.investmentRound.list.h2 = <h2>Lista de rondas de inversión</h2>
+
+enterpreneur.investmentRound.h2 = <h2>Detalles de la ronda de inversión</h2>
+
+enterpreneur.investmentRound.list.label.ticker = Código
+enterpreneur.investmentRound.list.label.creationdate = Fecha de creación
+enterpreneur.investmentRound.list.label.kindRound = Tipo de ronda de inversión
+enterpreneur.investmentRound.list.label.title = Título
+enterpreneur.investmentRound.list.label.money = Cantidad
+enterpreneur.investmentRound.list.label.info = Info
+enterpreneur.investmentRound.list.label.workProg = Programa de trabajo
+enterpreneur.investmentRound.list.label.application = Aplicaciones
+
+enterpreneur.investmentRound.form.label.ticker = Código
+enterpreneur.investmentRound.form.label.creationdate = Fecha de creación
+enterpreneur.investmentRound.form.label.kindRound = Tipo de ronda de inversión
+enterpreneur.investmentRound.form.label.title = Título
+enterpreneur.investmentRound.form.label.money = Cantidad
+enterpreneur.investmentRound.form.label.info = Información
+
+enterpreneur.invRound.form.label.active = Modo final
+enterpreneur.invRound.form.label.true = ACTIVO
+enterpreneur.invRound.form.label.false = INACTIVO
+
+enterpreneur.investmentRound.form.button.workingProg = Programa de trabajo
+enterpreneur.investmentRound.form.button.addActivity = Añadir actividad al PT
+
+enterpreneur.investmentRound.form.button.application = Aplicaciones
+
+enterpreneur.investmentRound.form.button.create = Crear
+enterpreneur.investmentRound.form.button.update = Actualizar
+enterpreneur.investmentRound.form.button.delete = Borrar
+
+enterpreneur.investmentRound.form.button.return = Volver

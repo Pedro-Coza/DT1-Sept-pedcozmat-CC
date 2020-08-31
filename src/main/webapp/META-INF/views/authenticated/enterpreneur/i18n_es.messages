@@ -1,0 +1,11 @@
+authenticated.enterpreneur.form.label.startupName = Nombre de la startup
+authenticated.enterpreneur.form.label.activitySector = Sector de actividad
+authenticated.enterpreneur.form.label.qualifRecord  = Cualidades
+authenticated.enterpreneur.form.label.skillRecord = Habilidades
+
+
+authenticated.enterpreneur.form.label.create = Registrarse
+authenticated.enterpreneur.form.label.update = Acctualizar
+
+
+authenticated.enterpreneur.form.button.return = Volver

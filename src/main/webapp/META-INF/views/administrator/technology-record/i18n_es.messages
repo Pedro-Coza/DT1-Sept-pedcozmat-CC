@@ -1,0 +1,38 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.technologyRecord.list.h2 = <h2>Lista de registros tecnológicos</h2>
+
+administrator.technologyRecord.h2 = <h2>Detalles del registro tecnológico</h2>
+
+administrator.technologyRecord.list.label.title = Título
+administrator.technologyRecord.list.label.sector = Sector de actividad
+administrator.technologyRecord.list.label.investorName = Nombre del inversor
+administrator.technologyRecord.list.label.description = Descripción
+administrator.technologyRecord.list.label.website = Sitio web
+administrator.technologyRecord.list.label.email = Email
+administrator.technologyRecord.list.label.source = Fuente
+administrator.technologyRecord.list.label.rating = Valoración
+
+administrator.technologyRecord.form.label.title = Título
+administrator.technologyRecord.form.label.sector = Sector de actividad
+administrator.technologyRecord.form.label.investorName = Nombre del inversor
+administrator.technologyRecord.form.label.description = Descripción
+administrator.technologyRecord.form.label.website = Sitio web
+administrator.technologyRecord.form.label.email = Email
+administrator.technologyRecord.form.label.source = Fuente
+administrator.technologyRecord.form.label.rating = Valoración
+
+administrator.technology-record.form.button.delete = Borrar
+administrator.technology-record.form.button.update = Actualizar
+administrator.technology-record.form.button.create = Crear
+administrator.technologyRecord.button.create = Crear Registro Tecnológico
+
+administrator.technologyRecord.form.button.return = Volver

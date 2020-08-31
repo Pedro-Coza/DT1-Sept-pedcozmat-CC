@@ -1,0 +1,39 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+administrator.dashboard.form.title = <h2>Panel de indicadores</h2>
+
+administrator.dashboard.form.totalNotice = Avisos totales
+administrator.dashboard.form.totalTechRec = Registros tecnológicos totales
+administrator.dashboard.form.totalToolRec = Registros de herramientas totales
+
+administrator.dashboard.form.minInq = Mínimo del intervalo de dinero de las investigaciones activas
+administrator.dashboard.form.maxInq = Máximo del intervalo de dinero de las investigaciones activas
+administrator.dashboard.form.avgInq = Promedio del intervalo de dinero de las investigaciones activas
+administrator.dashboard.form.stdDevInq = Desviación estándar del intervalo de dinero de las investigaciones activas
+
+administrator.dashboard.form.minOvt = Mínimo del intervalo de dinero de las propuestas activas
+administrator.dashboard.form.maxOvt = Máximo del intervalo de dinero de las propuestas activas
+administrator.dashboard.form.avgOvt = Promedio del intervalo de dinero de las propuestas activas
+administrator.dashboard.form.stdDevOvt = Desviación estándar del intervalo de dinero de las propuestas activas
+
+administrator.dashboard.form.charts = <h2>Gráficos</h2>
+administrator.dashboard.form.title.groupedByAS = Total de tecnologías y herramientas agrupadas por sector de actividad
+administrator.dashboard.form.title.techSource = Ratio de tecnologías de fuente libre respecto de las de fuente cerrada
+administrator.dashboard.form.title.toolSource = Ratio de herramientas de fuente libre respecto de las de fuente cerrada
+
+
+administrator.dashboard.form.avgInvRoundXEnterpreneur = Media de rondas de inversión por emprendedor
+administrator.dashboard.form.avgAppsXEnterpreneur = Media de aplicaciones por emprendedor
+administrator.dashboard.form.avgInvRoundXInvestor = Media de aplicaciones por invesor
+
+
+administrator.dashboard.form.title.iRKind = Rondas de inversión agrupadas según su tipo
+administrator.dashboard.form.title.appByStatus = Aplicaciones agrupadas según su estado

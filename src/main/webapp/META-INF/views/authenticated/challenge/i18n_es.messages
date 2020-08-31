@@ -1,0 +1,35 @@
+# i18n_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+authenticated.challenge.list.h2 = <h2>Lista de retos</h2>
+
+authenticated.challenge.h2 = <h2>Detalles del reto</h2>
+
+authenticated.challenge.list.label.title = Título
+authenticated.challenge.list.label.deadline = Fecha de expiración
+authenticated.challenge.list.label.description = Descripción
+authenticated.challenge.list.label.expert = Nivel experto
+authenticated.challenge.list.label.average = Nivel medio
+authenticated.challenge.list.label.rookie = Nivel principante
+authenticated.challenge.list.label.expertReward = Recompensa del nivel experto
+authenticated.challenge.list.label.averageReward = Recompensa del nivel medio
+authenticated.challenge.list.label.rookieReward = Recompensa del nivel principiante
+
+authenticated.challenge.form.label.title = Título
+authenticated.challenge.form.label.deadline = Fecha de expiración
+authenticated.challenge.form.label.description = Descripción
+authenticated.challenge.form.label.expert = Nivel experto
+authenticated.challenge.form.label.average = Nivel medio
+authenticated.challenge.form.label.rookie = Nivel principante
+authenticated.challenge.form.label.expertReward = Recompensa del nivel experto
+authenticated.challenge.form.label.averageReward = Recompensa del nivel medio
+authenticated.challenge.form.label.rookieReward = Recompensa del nivel principiante
+
+authenticated.challenge.form.button.return = Volver

@@ -1,0 +1,25 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+patron.credit-card.form.label.holderName = Nombre del Propietario
+patron.credit-card.form.label.number = Número
+patron.credit-card.form.label.expirationDate = Fecha de Caducidad
+patron.credit-card.form.label.cvv = CVV
+
+patron.banner.form.error.number = El número debe tener 15 dígitos
+patron.banner.form.error.cvv = El CVV debe tener 3 dígitos
+patron.banner.form.error.deadline = La fecha debe ser MM/yyyy
+patron.banner.form.error.month = El mes debe estar entre 01 y 12
+patron.banner.form.error.numberInvalid = El número es invalido
+patron.banner.form.error.invalidStart = La tarjeta de crédito debe empezar con 4(Visa), 5(MasterCard), 3(American Express) o 6(Discover)
+
+patron.credit-card.form.button.create = Crear
+
+patron.credit-card.form.button.return= Volver

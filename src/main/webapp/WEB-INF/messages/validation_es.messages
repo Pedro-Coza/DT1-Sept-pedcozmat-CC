@@ -1,0 +1,56 @@
+# validation_es.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+javax.validation.constraints.AssertFalse.message = Debe ser falso
+javax.validation.constraints.AssertTrue.message = Debe ser cierto
+javax.validation.constraints.DecimalMax.message = Debe ser menor o igual a {value}
+javax.validation.constraints.DecimalMin.message = Debe ser mayor o igual a {value}
+javax.validation.constraints.Digits.message = Debe tener {integer} dígitos y {fraction} decimales
+javax.validation.constraints.Email.message = No es un e-mail correcto
+javax.validation.constraints.Future.message = Debe ser en el futuro
+javax.validation.constraints.Max.message = Debe ser menor o igual a {value}
+javax.validation.constraints.Min.message = Debe ser mayor o igual a {value}
+javax.validation.constraints.NotBlank.message = No puede estar en blanco
+javax.validation.constraints.NotEmpty.message = No puede estar vacío
+javax.validation.constraints.NotNull.message = No puede ser nulo
+javax.validation.constraints.Null.message = Debe ser nulo
+javax.validation.constraints.Past.message = Debe estar en el pasado
+javax.validation.constraints.Pattern.message = Debe encajar en el patrón "{regexp}"
+javax.validation.constraints.Size.message = Debe tener entre {min} y {max} elementos
+
+org.hibernate.validator.constraints.CreditCardNumber.message = Número de tarjeta incorrecto
+org.hibernate.validator.constraints.Length.message = La longitud debe estar entre {min} y {max}
+org.hibernate.validator.constraints.Range.message = Debe estar entre {min} y {max}
+org.hibernate.validator.constraints.SafeHtml.message = El contenido HTML puede ser inseguro
+org.hibernate.validator.constraints.ScriptAssert.message = La expresión "{script}" debe devolver true
+org.hibernate.validator.constraints.URL.message = No es una URL correcta
+
+acme.validation.decimal-max = Debe ser menor o igual que {0}
+acme.validation.decimal-min = Debe ser mayor o igual que {0}
+acme.validation.digits = Debe tener {0} dígitos y {1} decimales
+acme.validation.max = Debe ser menor o igual que {0}
+acme.validation.min = Debe ser mayor o igual que {0}
+acme.validation.pattern = Debe encajar en el patrón "{0}"
+acme.validation.length = La longitud debe ser entre {0} y {1}
+acme.validation.range = Debe estar entre {0} y {1}
+acme.validation.script = El script "{0}" debe devolver true
+
+
+acme.validation.deadline = La fecha de expiración debe ser de al menos 7 días en el futuro
+acme.validation.accept = Presióname!
+acme.validation.currency = Debe usarse la moneda Euro y ser una cantidad positiva
+acme.validation.tickerFormat = Por favor ajústese a la indicación, donde SEC son las tres primeras letras de su sector de actividad, e YY son los dos últimos dígitos del año actual
+acme.validation.spamEN = Lo sentimos, demasiadas palabras prohibidas en Inglés..
+acme.validation.spamES = Lo sentimos, demasiadas palabras prohibidas en Español..
+acme.validation.spamBoth = Lo sentimos, demasiadas palabras prohibidas, ya sea en inglés o en español
+acme.validation.active = No puede cambiarse a activo hasta que el presupuesto de las actividades del programa de trabajo sumen al menos la cantidad de la ronda de inversión
+acme.validation.notDeleteable = No puede borrarse una ronda de inversión mientras que un inversor haya aplicado por ella
+acme.validation.justification = Las aplicaciones rechazadas necesitan una justificación
+

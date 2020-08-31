@@ -1,0 +1,25 @@
+# i18n_en.messages
+#
+# Copyright (c) 2019 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+enterpreneur.accountingRecord.list.h2 = <h2>Accounting Records List</h2>
+
+enterpreneur.accountingRecord.h2 = <h2>Accounting Record Details</h2>
+
+enterpreneur.accountingRecord.list.label.title = Title
+enterpreneur.accountingRecord.list.label.creationMoment = Creation Moment
+enterpreneur.accountingRecord.list.label.status = Status
+enterpreneur.accountingRecord.list.label.Body = Body
+
+enterpreneur.accountingRecord.form.label.title = Title
+enterpreneur.accountingRecord.form.label.creationMoment = Creation Moment
+enterpreneur.accountingRecord.form.label.status = Status
+enterpreneur.accountingRecord.form.label.body = Body
+
+enterpreneur.accountingRecord.form.button.return = Return

@@ -1,0 +1,12 @@
+enterpreneur.message.list.label.title = Title
+enterpreneur.message.list.label.creationMoment = Creation moment
+enterpreneur.message.list.label.tags= Tags
+enterpreneur.message.list.label.body = Body
+
+enterpreneur.message.form.label.title = Title
+enterpreneur.message.form.label.creationMoment = Creation moment
+enterpreneur.message.form.label.accepted = I accept to publish this message
+enterpreneur.message.form.label.tags = Tags
+enterpreneur.message.form.label.body = Body
+
+enterpreneur.message.form.button.return = Return
