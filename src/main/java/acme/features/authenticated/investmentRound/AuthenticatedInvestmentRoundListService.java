@@ -31,7 +31,7 @@ public class AuthenticatedInvestmentRoundListService implements AbstractListServ
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info");
+		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info", "XXXX");
 	}
 
 	@Override

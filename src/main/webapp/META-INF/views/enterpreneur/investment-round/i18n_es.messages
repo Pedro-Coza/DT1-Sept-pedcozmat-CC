@@ -32,6 +32,8 @@ enterpreneur.invRound.form.label.active = Modo final
 enterpreneur.invRound.form.label.true = ACTIVO
 enterpreneur.invRound.form.label.false = INACTIVO
 
+enterpreneur.investmentRound.form.label.XXXX = XXXX
+
 enterpreneur.investmentRound.form.button.workingProg = Programa de trabajo
 enterpreneur.investmentRound.form.button.addActivity = Añadir actividad al PT
 

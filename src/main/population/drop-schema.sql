@@ -39,10 +39,6 @@
        drop 
        foreign key FK_krvjp9eaqyapewl2igugbo9o8;
 
-    alter table `consumer` 
-       drop 
-       foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
-
     alter table `credit_card` 
        drop 
        foreign key `FKa4pbn9v8sv66p46fsrke8ow89`;
@@ -87,10 +83,6 @@
        drop 
        foreign key FK_8xx5nujhuio3advxc2freyu65;
 
-    alter table `provider` 
-       drop 
-       foreign key FK_b1gwnjqm6ggy9yuiqm0o4rlmd;
-
     alter table `spamword` 
        drop 
        foreign key `FKrk7poykhk0ukf2dm6oqv3rejm`;
@@ -119,8 +111,6 @@
 
     drop table if exists `challenge`;
 
-    drop table if exists `consumer`;
-
     drop table if exists `credit_card`;
 
     drop table if exists `enterpreneur`;
@@ -142,8 +132,6 @@
     drop table if exists `overture`;
 
     drop table if exists `patron`;
-
-    drop table if exists `provider`;
 
     drop table if exists `spamlist`;
 

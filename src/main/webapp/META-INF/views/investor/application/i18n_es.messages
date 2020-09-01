@@ -9,6 +9,7 @@
 # they accept any liabilities with respect to them.
 
 investor.application.list.h2 = <h2>Lista de mis aplicaciones para esta ronda de inversión</h2>
+investor.application.xxxxOffer.h3 = <h3>xxxxOffer</h3>
 
 investor.application.h2 = <h2>Detalles de la aplicación</h2>
 
@@ -24,6 +25,10 @@ investor.application.form.label.invOffer = Oferta de inversión
 
 investor.application.form.label.status = Estado
 investor.application.form.label.justification = Justificación
+
+enterpreneur.application.form.label.xxxxOffer = xxxxOffer
+enterpreneur.application.form.label.link = Enlace
+enterpreneur.application.form.label.pasword = Contraseña
 
 investor.application.form.button.create = Crear
 

@@ -16,6 +16,8 @@ enterpreneur.application.listTicker.h2 = <h2>Applications to my Investment Round
 
 enterpreneur.application.h2 = <h2>Application Details</h2>
 
+investor.application.xxxxOffer.h3 = <h3>xxxxOffer</h3>
+
 enterpreneur.application.list.label.ticker = Ticker
 enterpreneur.application.list.label.creationDate = Creation Date
 enterpreneur.application.list.label.statement = Statement
@@ -27,10 +29,17 @@ enterpreneur.application.form.label.statement = Statement
 enterpreneur.application.form.label.invOffer = Investment Offer
 
 enterpreneur.application.form.label.status = Status
+enterpreneur.application.form.label.pending = PENDING
 enterpreneur.application.form.label.rejected = REJECTED
 enterpreneur.application.form.label.accepted = ACCEPTED
 
 enterpreneur.application.form.label.justification = Justification
+
+enterpreneur.application.form.label.xxxxOffer = xxxxOffer
+enterpreneur.application.form.label.moreInfo = More Info Link 
+enterpreneur.application.form.label.password = Password
+
+enterpreneur.application.form.button.revealLink = Reveal Link
 
 enterpreneur.application.form.button.update = Update
 

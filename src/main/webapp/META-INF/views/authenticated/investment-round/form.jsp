@@ -16,6 +16,7 @@
 	<acme:form-textbox code="authenticated.investmentRound.form.label.title" path="title"/>
 	<acme:form-money code="authenticated.investmentRound.form.label.money" path="money"/>
 	<acme:form-url code="authenticated.investmentRound.form.label.info" path="info"/>
+	<acme:form-textarea code="authenticated.investmentRound.form.label.XXXX" path="XXXX"/>
 	
 	<acme:form-submit test="${command == 'show'}" method="get" code="authenticated.investmentRound.form.button.workingProg"
 	action="/authenticated/activity/list?id=${workProgId}" />

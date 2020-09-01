@@ -33,6 +33,8 @@ enterpreneur.invRound.form.label.active = Final mode
 enterpreneur.invRound.form.label.true = ACTIVE
 enterpreneur.invRound.form.label.false = INACTIVE
 
+enterpreneur.investmentRound.form.label.XXXX = XXXX
+
 enterpreneur.investmentRound.form.button.workingProg = Working Programme
 enterpreneur.investmentRound.form.button.addActivity = Add activity to WP
 

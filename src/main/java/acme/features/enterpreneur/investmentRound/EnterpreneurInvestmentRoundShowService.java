@@ -29,7 +29,7 @@ public class EnterpreneurInvestmentRoundShowService implements AbstractShowServi
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "creationDate", "kindRound", "title", "money", "info", "active");
+		request.unbind(entity, model, "ticker", "creationDate", "kindRound", "title", "money", "info", "active", "XXXX");
 
 		Integer appsCount = this.repository.countAppsByIRId(entity.getId());
 

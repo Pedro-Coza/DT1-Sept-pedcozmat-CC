@@ -57,7 +57,15 @@ public class EnterpreneurApplicationUpdateService implements AbstractUpdateServi
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "status", "justification");
+		request.unbind(entity, model, "status", "justification", "xxxxOffer", "link", "password");
+
+		Boolean pwdProtected = !entity.getPassword().isEmpty() && entity.getPassword() != null;
+		if (pwdProtected) {
+			model.setAttribute("pwdProtected", true);
+		} else if (request.getServletRequest().getParameter("pwdProtected") == "true") {
+			model.setAttribute("pwdProtected", true);
+		}
+		model.setAttribute("pwdOk", false);
 	}
 
 	@Override
@@ -84,6 +92,24 @@ public class EnterpreneurApplicationUpdateService implements AbstractUpdateServi
 		if (!errors.hasErrors("status")) {
 			errors.state(request, !isRejectedEmpty, "justification", "acme.validation.justification");
 		}
+		Boolean pwdProtected = !entity.getPassword().isEmpty() && entity.getPassword() != null;
+		request.getModel().setAttribute("pwdProtected", pwdProtected);
+
+		String pass = "";
+		Boolean pending = request.getServletRequest().getParameter("status") == "PENDING";
+
+		if (request.getServletRequest().getParameter("password") != null && !pending) {
+			pass = request.getServletRequest().getParameter("password");
+			Boolean pwdOk = !entity.getPassword().isEmpty() && entity.getPassword().equals(pass);
+
+			request.getModel().setAttribute("pwdOk", pwdOk);
+
+			if (!errors.hasErrors("password")) {
+				errors.state(request, pwdOk, "password", "acme.validation.pwdWrong");
+				//errors.state(request, !pwdOk, "password", "acme.validation.pwdOk");
+			}
+		}
+
 	}
 
 	@Override

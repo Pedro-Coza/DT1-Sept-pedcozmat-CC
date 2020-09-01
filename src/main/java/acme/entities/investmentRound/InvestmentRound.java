@@ -15,6 +15,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
+import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.URL;
 
 import acme.entities.accountingRecord.AccountingRecord;
@@ -58,6 +59,10 @@ public class InvestmentRound extends DomainEntity {
 	@NotNull
 	@Pattern(regexp = "ACTIVE|INACTIVE")
 	private String							active;
+
+	@NotBlank
+	@Length(max = 300)
+	private String							XXXX;
 
 	//----- Relationships -----
 

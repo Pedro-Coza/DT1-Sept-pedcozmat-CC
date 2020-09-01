@@ -35,8 +35,13 @@ public class InvestorApplicationShowService implements AbstractShowService<Inves
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer", "status", "justification");
+		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer", "status", "justification", "xxxxOffer", "link", "password");
 
+		Integer principalId = request.getPrincipal().getActiveRoleId();
+
+		Boolean owner = entity.getInvestor().getId() == principalId;
+
+		model.setAttribute("owner", owner);
 	}
 
 	@Override

@@ -29,8 +29,10 @@ public class EnterpreneurApplicationShowService implements AbstractShowService<E
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer", "status", "justification");
+		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer", "status", "justification", "xxxxOffer", "link");
 
+		Boolean pwdProtected = !entity.getPassword().isEmpty() && entity.getPassword() != null;
+		model.setAttribute("pwdProtected", pwdProtected);
 	}
 
 	@Override

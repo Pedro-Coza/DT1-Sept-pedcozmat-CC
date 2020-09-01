@@ -54,7 +54,7 @@ public class EnterpreneurInvestmentRoundDeleteService implements AbstractDeleteS
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info", "money", "active");
+		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info", "money", "active", "XXXX");
 
 		Integer appsCount = this.repository.countAppsByIRId(entity.getId());
 

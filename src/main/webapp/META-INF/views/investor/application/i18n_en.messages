@@ -9,6 +9,7 @@
 # they accept any liabilities with respect to them.
 
 investor.application.list.h2 = <h2>My Investment Round's Application List</h2>
+investor.application.xxxxOffer.h3 = <h3>xxxxOffer</h3>
 
 investor.application.h2 = <h2>Application Details</h2>
 
@@ -23,6 +24,10 @@ investor.application.form.label.statement = Statement
 investor.application.form.label.invOffer = Investment Offer
 investor.application.form.label.status = Status
 investor.application.form.label.justification = Justification
+
+enterpreneur.application.form.label.xxxxOffer = xxxxOffer
+enterpreneur.application.form.label.link = Link
+enterpreneur.application.form.label.pasword = Password
 
 investor.application.form.button.create = Create
 

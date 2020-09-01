@@ -1188,6 +1188,7 @@
 		<property name="title" value="Investment Round 1"/>
 		<property name="money" value="300€"/>
 		<property name="info" value="http://www.info.com"/>
+		<property name="XXXX" value="A nice XXXX request for Investor applying"/>
 		<property name="workProg" ref="workProg1"/>
 		<property name="application">
 			<list>
@@ -1212,6 +1213,7 @@
 		<property name="title" value="Investment Round 2"/>
 		<property name="money" value="300€"/>
 		<property name="info" value="http://www.info.com"/>
+		<property name="XXXX" value="A nice XXXX request for Investor applying"/>
 		<property name="workProg" ref="workProg2"/>
 		<property name="application">
 			<list>
@@ -1236,6 +1238,7 @@
 		<property name="title" value="Investment Round 3"/>
 		<property name="money" value="300€"/>
 		<property name="info" value="http://www.info.com"/>
+		<property name="XXXX" value="A nice XXXX request for Investor applying"/>
 		<property name="workProg" ref="workProg3"/>
 		<property name="active" value="INACTIVE"/>
 		<property name="enterpreneur" ref="userEnterpreneur02"/>
@@ -1254,6 +1257,7 @@
 		<property name="title" value="Investment Round 4"/>
 		<property name="money" value="300€"/>
 		<property name="info" value="http://www.info.com"/>
+		<property name="XXXX" value="A nice XXXX request for Investor applying"/>
 		<property name="workProg" ref="workProg4"/>
 		<property name="application">
 			<list>

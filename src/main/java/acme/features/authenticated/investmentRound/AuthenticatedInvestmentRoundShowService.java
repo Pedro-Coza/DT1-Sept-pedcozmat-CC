@@ -31,7 +31,7 @@ public class AuthenticatedInvestmentRoundShowService implements AbstractShowServ
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "creationDate", "kindRound", "title", "money", "info");
+		request.unbind(entity, model, "ticker", "creationDate", "kindRound", "title", "money", "info", "XXXX");
 
 		Integer appsCount = this.repository.countAppsByIVId(entity.getId());
 

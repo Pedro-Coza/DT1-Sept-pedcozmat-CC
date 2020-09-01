@@ -59,7 +59,7 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "statement", "invOffer");
+		request.unbind(entity, model, "ticker", "statement", "invOffer", "xxxxOffer", "link", "password");
 
 		model.setAttribute("id", request.getServletRequest().getParameter("id"));
 
@@ -70,7 +70,7 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 		String placeholder = invRoundPrefix + "-" + currentYear + "-";
 
 		model.setAttribute("ticker", placeholder);
-
+		model.setAttribute("xxxxOffer", "xxxxOffer: " + invR.getXXXX());
 	}
 
 	@Override
@@ -107,7 +107,7 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 
 		Boolean isSpamEN, isSpamES;
 		String reallyBigString;
-		reallyBigString = request.getModel().getString("statement");
+		reallyBigString = request.getModel().getString("statement") + request.getModel().getString("xxxxOffer");
 		Spamlist spamEN = this.repository.findSpamLists("EN");
 		Spamlist spamES = this.repository.findSpamLists("ES");
 
@@ -131,10 +131,23 @@ public class InvestorApplicationCreateService implements AbstractCreateService<I
 		request.getModel().setAttribute("spamEN", isSpamEN);
 		request.getModel().setAttribute("spamES", isSpamES);
 
+		String link = request.getModel().getString("link");
+		String password = request.getModel().getString("password");
+
+		Boolean passMatchesPattern = password.matches("^$|^(?=(.*[a-zA-Z])){1,}(?=(.*[\\d])){1,}(?=(.*[\\W])){1,}.{10,}$");
+		Boolean emptyLinkWPass = link.equals("") && !password.equals("");
+
 		if (!errors.hasErrors()) {
 			errors.state(request, tickerFormat, "ticker", "acme.validation.tickerFormat");
-			errors.state(request, !isSpamEN || !isSpamES, "statement", "acme.validation.spamBoth");
+			if (!isSpamEN && !isSpamES) {
+				errors.state(request, !isSpamEN && !isSpamES, "statement", "acme.validation.spamBoth");
+			} else {
+				errors.state(request, isSpamEN && !isSpamES, "statement", "acme.validation.spamEN");
+				errors.state(request, !isSpamEN && isSpamES, "statement", "acme.validation.spamEN");
+			}
 			errors.state(request, currencyValue, "invOffer", "acme.validation.currency");
+			errors.state(request, !emptyLinkWPass, "link", "acme.validation.emptyLink");
+			errors.state(request, passMatchesPattern, "password", "acme.validation.password");
 		}
 	}
 

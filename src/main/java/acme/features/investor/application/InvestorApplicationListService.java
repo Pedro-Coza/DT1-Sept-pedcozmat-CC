@@ -34,7 +34,7 @@ public class InvestorApplicationListService implements AbstractListService<Inves
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer");
+		request.unbind(entity, model, "ticker", "creationDate", "statement", "invOffer", "xxxxOffer", "link", "password");
 	}
 
 	@Override

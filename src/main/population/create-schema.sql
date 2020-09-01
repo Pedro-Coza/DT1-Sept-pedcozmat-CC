@@ -44,9 +44,12 @@
         `inv_offer_amount` double precision,
         `inv_offer_currency` varchar(255),
         `justification` varchar(255),
+        `link` varchar(255),
+        `password` varchar(255),
         `statement` varchar(255),
         `status` varchar(255),
         `ticker` varchar(255),
+        `xxxx_offer` varchar(255),
         `inv_round_id` integer not null,
         `investor_id` integer not null,
         primary key (`id`)
@@ -102,15 +105,6 @@
         `rookie_reward_amount` double precision,
         `rookie_reward_currency` varchar(255),
         `title` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `consumer` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -173,6 +167,7 @@
     create table `investment_round` (
        `id` integer not null,
         `version` integer not null,
+        `xxxx` varchar(255),
         `active` varchar(255),
         `creation_date` datetime(6),
         `info` varchar(255),
@@ -238,15 +233,6 @@
         `version` integer not null,
         `user_account_id` integer,
         `org_name` varchar(255),
-        primary key (`id`)
-    ) engine=InnoDB;
-
-    create table `provider` (
-       `id` integer not null,
-        `version` integer not null,
-        `user_account_id` integer,
-        `company` varchar(255),
-        `sector` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -317,6 +303,8 @@
     ) engine=InnoDB;
 
     insert into `hibernate_sequence` values ( 1 );
+create index IDXj1shjic6mip5nyik4ywhvxiid on `application` (`ticker` asc);
+create index IDXrjsbhe3csqs8qg6gg4r35rwjo on `application` (`creation_date` desc);
 create index IDX2insomc4a40jprju8tmgcvmig on `spamword` (`spamword`);
 create index IDXr7lyttb4bnfd85oud954xkpx7 on `technology_record` (`activity_sector` asc);
 create index IDXqbw8w2s6652rbjawhqvaguci0 on `technology_record` (`rating` asc);
@@ -376,11 +364,6 @@ create index IDXr8s9h3wycn19a9jpeqoqflx4x on `tool_record` (`rating` asc);
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
 
-    alter table `consumer` 
-       add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
     alter table `credit_card` 
        add constraint `FKa4pbn9v8sv66p46fsrke8ow89` 
        foreign key (`banner_id`) 
@@ -433,11 +416,6 @@ create index IDXr8s9h3wycn19a9jpeqoqflx4x on `tool_record` (`rating` asc);
 
     alter table `patron` 
        add constraint FK_8xx5nujhuio3advxc2freyu65 
-       foreign key (`user_account_id`) 
-       references `user_account` (`id`);
-
-    alter table `provider` 
-       add constraint FK_b1gwnjqm6ggy9yuiqm0o4rlmd 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
 

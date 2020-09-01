@@ -53,5 +53,8 @@ acme.validation.spamBoth = Sorry, you're spamming either English or Spanish word
 acme.validation.active = Cannot be active unless the activity budgets in its work programme sum up to the total investment amount
 acme.validation.notDeleteable = Cannot delete an Investment Round as far as an Investor has applied for it
 acme.validation.justification = Rejected applications needs a justification
-
+acme.validation.password = Password must have X letters, Y digits and Z punctuation symbols
+acme.validation.pwdWrong = Password does not match, try again
+acme.validation.pwdOk =
+acme.validation.emptyLink = You cannot have a password without a link
 

@@ -56,7 +56,7 @@ public class EnterpreneurInvestmentRoundCreateService implements AbstractCreateS
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info", "money");
+		request.unbind(entity, model, "ticker", "kindRound", "title", "money", "info", "money", "XXXX");
 	}
 
 	@Override

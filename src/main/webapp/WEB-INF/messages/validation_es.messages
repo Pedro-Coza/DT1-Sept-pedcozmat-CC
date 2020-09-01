@@ -53,4 +53,8 @@ acme.validation.spamBoth = Lo sentimos, demasiadas palabras prohibidas, ya sea e
 acme.validation.active = No puede cambiarse a activo hasta que el presupuesto de las actividades del programa de trabajo sumen al menos la cantidad de la ronda de inversión
 acme.validation.notDeleteable = No puede borrarse una ronda de inversión mientras que un inversor haya aplicado por ella
 acme.validation.justification = Las aplicaciones rechazadas necesitan una justificación
+acme.validation.password = La contraseña debe tener X letras, Y números y Z caracteres especiales
+acme.validation.passwordWrong = La contraseña no coincide, inténtelo de nuevo
+acme.validation.passwordOk =
+acme.validation.emptyLink = No puede haber contraseña sin enlace
 

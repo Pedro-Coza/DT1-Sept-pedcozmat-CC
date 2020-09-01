@@ -27,6 +27,7 @@ investor.investmentRound.form.label.kindRound = Kind of investment Round
 investor.investmentRound.form.label.title = Title
 investor.investmentRound.form.label.money = Investment amount
 investor.investmentRound.form.label.info = Information
+investor.investmentRound.form.label.XXXX = XXXX
 
 investor.investmentRound.form.button.workingProg = Working Programme
 

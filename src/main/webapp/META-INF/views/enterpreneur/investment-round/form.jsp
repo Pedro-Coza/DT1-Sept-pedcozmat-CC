@@ -24,6 +24,7 @@
 			</acme:form-select>
 	</acme:check-access>
 
+	<acme:form-textarea code="enterpreneur.investmentRound.form.label.XXXX" path="XXXX"/>
 
 	<acme:form-submit test="${command == 'show' && active == 'INACTIVE'}" code="enterpreneur.investmentRound.form.button.update" action="/enterpreneur/investment-round/update?idW=${workProgId}" />
 	<acme:form-submit test="${command == 'update' && active == 'INACTIVE'}" code="enterpreneur.investmentRound.form.button.update" action="/enterpreneur/investment-round/update?idW=${workProgId}" />

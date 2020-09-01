@@ -70,7 +70,7 @@ public class AdministratorChallengeCreateService implements AbstractCreateServic
 
 		if (!errors.hasErrors("deadline")) {
 			calendar = new GregorianCalendar();
-			calendar.add(Calendar.DAY_OF_MONTH, 7);
+			calendar.add(Calendar.DAY_OF_MONTH, 30);
 			minimumDeadLine = calendar.getTime();
 			if (entity.getDeadline() == null) {
 				errors.state(request, true, "deadline", "javax.validation.constraints.NotBlank.message");
